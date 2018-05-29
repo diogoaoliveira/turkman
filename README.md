@@ -2,6 +2,8 @@
 
 ### How to use
 
-{ yarn
+```
+yarn
 cd client && yarn
-cd ../ && yarn build }
+cd ../ && yarn build
+```
