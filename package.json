@@ -9,7 +9,8 @@
     "start": "babel-node index.js",
     "server": "nodemon --exec yarn start",
     "client": "cd client && yarn start",
-    "dev": "concurrently \"yarn start\" \"yarn client\""
+    "dev": "concurrently \"yarn start\" \"yarn client\"",
+    "build": "cd client && yarn build && cd ../ && concurrently \"yarn start\""
   },
   "dependencies": {
     "babel-cli": "^6.5.1",
