@@ -2,6 +2,6 @@
 
 ### How to use
 
-1 . { yarn }
-2 . { cd client && yarn }
-3 . { cd ../ && yarn build }
+{ yarn
+cd client && yarn
+cd ../ && yarn build }
