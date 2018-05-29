@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Turkman server",
+  "main": "index.js",
+  "author": "Diogo & Chico",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node index.js",
+    "server": "nodemon --exec yarn start",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"yarn start\" \"yarn client\""
+  },
+  "dependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-env": "^1.7.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs-extra": "^6.0.1",
+    "ip": "^1.1.5",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
